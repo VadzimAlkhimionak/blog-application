@@ -1,0 +1,16 @@
+.content {
+    width: 100%;
+}
+
+.author {
+    padding-left: 10px;
+}
+
+.articles {
+    max-height: 80%;
+    overflow: scroll;
+    margin-top: 20px;
+    margin-bottom: 20rem;
+}
+
+

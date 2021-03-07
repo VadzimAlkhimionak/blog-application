@@ -1,0 +1,31 @@
+.Navigation {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Active {
+    font-weight: 900;
+    font-size: 1rem;
+    color: #062b8f;
+    border-bottom: 2px solid red;
+}
+
+.List {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.LinkItem {
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+.Link {
+    color: #b3c8de;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+

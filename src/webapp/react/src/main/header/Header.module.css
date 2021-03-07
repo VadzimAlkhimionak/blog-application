@@ -1,0 +1,10 @@
+.header {
+    position: absolute;
+    top: 0;
+    display: flex;
+    width: 100vw;
+    padding: 1rem;
+    cursor: pointer;
+    box-shadow: 0 5px 20px #00000080;
+    background-color: #000214;
+}

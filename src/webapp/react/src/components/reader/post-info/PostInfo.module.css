@@ -1,0 +1,42 @@
+.appBar {
+    position: relative;
+}
+
+.title {
+    margin-left: 2rem;
+}
+
+.main {
+    margin: 4rem 2rem;
+    padding: .5rem;
+    height: 100vh;
+}
+
+.description {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.manage {
+    width: 15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.comment {
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.comments {
+    max-height: 75%;
+    overflow: scroll;
+    margin-top: 20px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}

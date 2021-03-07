@@ -1,0 +1,57 @@
+.postInfo {
+    margin: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.postTitle {
+    width: 90%;
+    background-color: #fff;
+}
+
+.content {
+    margin-top: 2rem;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dialogContent {
+    padding: 1rem;
+    margin: 0;
+}
+
+.text {
+    height: 100%;
+    width: 100%;
+}
+
+.likes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+}
+
+.comments {
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.btn {
+    margin-top: 1rem;
+    width: 90%;
+    display: flex;
+}
+
+.btn button {
+    margin-right: 1rem;
+}

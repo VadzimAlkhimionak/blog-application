@@ -1,0 +1,30 @@
+.logo {
+    text-align: center;
+}
+.logo {
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    color: #000214;
+    font-size: 8em;
+    font-weight: 500;
+    line-height: 1;
+    padding: 10px 0;
+    margin: 0;
+    display: inline-block;
+}
+.logo:before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 250%;
+    border-radius: 50%/30%;
+    border: 10px solid #000214;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+@media (max-width: 420px) {
+    .logo {font-size: 2em;}
+}

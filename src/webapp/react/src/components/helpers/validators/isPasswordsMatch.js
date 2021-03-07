@@ -1,0 +1,1 @@
+export const isPasswordsMatch = (password, repeatPassword) => password === repeatPassword;

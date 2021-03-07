@@ -1,0 +1,10 @@
+.authorPage {
+    flex-grow: 1;
+    display: flex;
+    height: 110%;
+}
+
+.tabs {
+    border-right: 1px solid #000214;
+    width: 30%;
+}

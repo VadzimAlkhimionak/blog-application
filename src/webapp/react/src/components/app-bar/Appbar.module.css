@@ -1,0 +1,8 @@
+.appbar {
+    flex-direction: row!important;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+    width: 100%;
+    padding: 3px;
+}

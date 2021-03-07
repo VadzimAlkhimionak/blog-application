@@ -1,1 +1,1 @@
-# blog-application
+# blog_project

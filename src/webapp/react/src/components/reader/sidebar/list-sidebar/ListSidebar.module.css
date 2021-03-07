@@ -1,0 +1,21 @@
+.item {
+    color: #000000;
+    transition: .3s;
+}
+
+.item:hover {
+    border-radius: 10px!important;
+}
+
+.item:active {
+    background-color: #4562ba !important;
+    border-radius: 10px!important;
+}
+
+.active {
+    border: 1px solid #2445a9!important;
+    border-radius: 10px!important;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.5);
+    background-color: #000214!important;
+    color: #b3c8de!important;
+}

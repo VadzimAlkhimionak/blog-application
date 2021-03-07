@@ -1,0 +1,21 @@
+.article {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: #ececec;
+}
+
+.content {
+    display: flex;
+    max-height: 20%;
+}
+
+.likes {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
